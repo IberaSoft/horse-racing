@@ -27,7 +27,7 @@ This is an addictive multiplayer game developed for WH's Hackathon 2017 where th
 
 ***Race administrator***
 ```
-1- Enter the race duration (in milliseconds e.x.: 5000) and press `Create`
+1- Enter the race duration (in milliseconds e.x.: 5000) and press `Create` button.
 2- Once the players have entered their names, click on `Start Race` button...
 ```
 ***Players***
@@ -39,7 +39,7 @@ This is an addictive multiplayer game developed for WH's Hackathon 2017 where th
 ```
 ***Betting***
 ```
-Other participants could just bet for the any horse in the game just scanning the QA code provided before start the race.
+- Other participants could bet for the any horse in the game just scanning the QR code provided before start the race.
 ```
 ---
 
