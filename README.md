@@ -16,7 +16,6 @@
 - [Team](#team)
 - [License](#license)
 
----
 ## Description
 
 This is an addictive multiplayer game developed for WH's Hackathon 2017 where the participants can play as jockeys or just bet for each of them using their SmartPhones.
@@ -41,7 +40,6 @@ This is an addictive multiplayer game developed for WH's Hackathon 2017 where th
 ```
 - Other participants could bet for the any horse in the game just scanning the QR code provided before start the race.
 ```
----
 
 ## Installation
 
@@ -80,7 +78,6 @@ $ npm run start
 ```shell
 $ sudo npm start --port:80
 ```
----
 
 ## Team
 
@@ -88,8 +85,6 @@ $ sudo npm start --port:80
 - Radi Hristova [@radiola](http://radoila.com/)
 - Erika Matesanz [@ematesanz](https://github.com/ematesanz)
 - Juan Cruz Llorens [@iberasoft](https://github.com/iberasoft)
-
----
 
 ## License
 
