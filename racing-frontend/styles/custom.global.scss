@@ -1,0 +1,238 @@
+$whWebFontPath: './fonts/Light';
+
+@font-face {
+  font-family: "WHHoxtonWeb";
+  src: url('#{$whWebFontPath}/WHHoxtonWeb-Light.eot?#iefix');
+  src: url('#{$whWebFontPath}/WHHoxtonWeb-Light.eot?#iefix') format("eot"),
+  url('#{$whWebFontPath}/WHHoxtonWeb-Light.woff2') format("woff2"),
+  url('#{$whWebFontPath}/WHHoxtonWeb-Light.woff') format("woff"),
+  url('#{$whWebFontPath}/WHHoxtonWeb-Light.ttf') format("truetype"),
+  url('#{$whWebFontPath}/WHHoxtonWeb-Light.svg#WHHoxtonWeb-Light') format("svg");
+}
+
+html {
+  background: url(./assets/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: WHHoxtonWeb, Verdana, Geneva, sans-serif;
+  color: white;
+  border-top: 6px solid rgba(250, 255, 5, 1);
+}
+
+.hero-body {
+  padding: 1rem 1.5rem;
+}
+
+.title {
+  font-weight: 400;
+
+  strong {
+    color: rgba(250, 255, 5, 1);
+    font-weight: bolder;
+  }
+}
+
+.button {
+  width: 100%;
+  &--race {
+    width: 50%;
+  }
+}
+
+.box {
+  background-color: rgba(0, 170, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  padding: 0;
+  &:not(:last-child) {
+    margin-bottom: 0.5em;
+  }
+}
+
+.media-content {
+  align-self: center;
+  padding: 1em;
+  p {
+    color: white;
+  }
+  span:last-child {
+    color: #faff05;
+    font-weight: bolder;
+  }
+}
+
+.track {
+  background: url(assets/track.svg) no-repeat center;
+  background-size: contain;
+  width: 80%;
+}
+
+.betting-header {
+  align-items: inherit !important;
+  justify-content: space-around;
+}
+
+.create-race {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.balance {
+  font-weight: bolder;
+  color: rgba(250, 255, 5, 1);
+}
+
+table {
+  background-color: transparent !important;
+  color: white !important;
+
+  td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+  }
+}
+
+.input.is-rounded {
+  border-radius: 290486px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.button.is-info {
+  background-color: transparent;
+  border-color: #d7e3ff;
+  color: #fff;
+}
+
+.is-primary.is-outlined:hover {
+  background-color: #faff05;
+  border-color: #faff05;
+  color: rgba(0, 20, 60, 1) !important;
+}
+
+// Horses Sprites when the user stop shacking
+
+//.bg-h1a {
+//  width: 80px; height: 16px;
+//  background: url('../assets/horses.png') -5px -5px;
+//}
+//
+//.bg-h2a {
+//  width: 80px; height: 16px;
+//  background: url('../assets/horses.png') -5px -31px;
+//}
+//
+//.bg-h3a {
+//  width: 80px; height: 16px;
+//  background: url('../assets/horses.png') -5px -57px;
+//}
+//
+//.bg-h4a {
+//  width: 80px; height: 16px;
+//  background: url('../assets/horses.png') -5px -83px;
+//}
+//
+//.bg-h5a {
+//  width: 80px; height: 16px;
+//  background: url('../assets/horses.png') -5px -109px;
+//}
+
+// Count Down
+@mixin opacity ($opacity: 0.5) {
+  -webkit-opacity: 	$opacity;
+  -moz-opacity: 	$opacity;
+  opacity: 		    $opacity;
+}
+@mixin transition ($transition) {
+  -webkit-transition: $transition;
+  -moz-transition:    $transition;
+  -ms-transition:     $transition;
+  -o-transition:      $transition;
+}
+@mixin transform($string){
+  -webkit-transform: $string;
+  -moz-transform: 	 $string;
+  -ms-transform: 	 $string;
+  -o-transform: 	 $string;
+}
+
+#countdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: rgba(250, 255, 5, 1);
+  font-size: 7em;
+  font-weight: bolder;
+  font-style: italic;
+
+  @include opacity(1);
+  @include transition(opacity 0.4s ease);
+  /* solve for flicker problem */
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
+}
+#countdown.transition {
+  @include opacity(0);
+  @include transform(scale(1.6,1.6));
+  @include transition(all 0.4s ease-out);
+}
+
+.notification.is-info {
+  background-color: white;
+  color: #4a4a4a;
+}
+
+.countdown-overlay{
+
+  background-color: rgba(6, 3, 43, 0.9);
+  color: white;
+
+  position: fixed;
+  z-index: 500;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  transition: all 500ms;
+  opacity: 1;
+
+  &--hidden {
+    opacity: 0;
+  }
+
+  .countdown-item {
+
+    transition: all 250ms;
+    position: absolute;
+
+    &--hidden {
+      top: 25%;
+      left: 30%;
+      font-size: 25vh;
+      opacity: 0;
+    }
+
+    &--showing {
+      top: 40%;
+      left: 45%;
+      font-size: 15vh;
+      opacity: 1;
+    }
+
+    &--shown {
+      top: 50%;
+      left: 55%;
+      font-size: 5vh;
+      opacity: 0;
+    }
+
+  }
+
+}
