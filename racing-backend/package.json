@@ -1,0 +1,23 @@
+{
+  "name": "racing-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "reql": "node reql.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IberaSoft/horce-racing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "oddslib": "^1.0.3",
+    "rethinkdbdash": "^2.3.31",
+    "socket.io": "^2.0.4",
+    "u-rand": "^1.1.4"
+  }
+}
