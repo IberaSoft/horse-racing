@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FAFF05;}
+	.st1{fill:none;stroke:#FFFFFF;}
+	.st2{fill:#00143C;}
+	.st3{font-family:'WHHoxton-Bold';}
+	.st4{font-size:20px;}
+</style>
+<font horiz-adv-x="1000">
+<!-- WH Hoxton is a licensed version of FS Hackney. Copyright (c) 2014 by Fontsmith Ltd for William Hill PLC. All rights reserved. This font may not be altered in any way without prior permission of Fontsmith Ltd. -->
+<!-- Copyright: Copyright 2017 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="WHHoxton-Bold" units-per-em="1000" underline-position="-55" underline-thickness="90"/>
+<missing-glyph horiz-adv-x="500" d="M12,672l476,0l0,-672l-476,0M412,624l-324,0l162,-244M222,336l-162,244l0,-488M440,580l-162,-244l162,-244M412,48l-162,244l-162,-244z"/>
+<glyph unicode="5" horiz-adv-x="538" d="M503,199C503,125 481,71 437,38C392,5 320,-12 220,-12C157,-12 99,-4 45,13l0,102C98,97 153,88 210,88C267,88 309,97 335,115C360,132 373,161 373,202C373,242 360,271 333,288C306,305 263,314 202,314C154,314 108,312 63,307l0,365l428,0l-63,-97l-247,0l0,-171C205,406 229,407 253,407C341,407 405,391 444,358C483,325 503,272 503,199z"/>
+</font>
+
+	<title>avatar5</title>
+<desc>Created with Sketch.</desc>
+<g id="Desktop-Watcher-Resulted" transform="translate(-180.000000, -401.000000)">
+	<g id="player" transform="translate(171.000000, 396.000000)">
+		<g id="avatar5" transform="translate(9.000000, 5.000000)">
+			<g id="Rectangle-5">
+				<g>
+					<path id="path-1" class="st0" d="M20,0L20,0c11.0457,0,20,8.9543,20,20l0,0c0,11.0457-8.9543,20-20,20l0,0
+						C8.9543,40,0,31.0457,0,20l0,0C0,8.9543,8.9543,0,20,0z"/>
+				</g>
+				<path class="st1" d="M20,0.5L20,0.5c10.76955,0,19.5,8.73045,19.5,19.5l0,0c0,10.76955-8.73045,19.5-19.5,19.5l0,0
+					C9.23045,39.5,0.5,30.76955,0.5,20l0,0C0.5,9.23045,9.23045,0.5,20,0.5z"/>
+			</g>
+			<text transform="matrix(1 0 0 1 15.12 27)" class="st2 st3 st4">5</text>
+		</g>
+	</g>
+</g>
+</svg>

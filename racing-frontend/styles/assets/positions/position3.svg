@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FAFF05;}
+	.st1{fill:none;stroke:#FFFFFF;}
+	.st2{fill:#00143C;}
+	.st3{font-family:'WHHoxton-Bold';}
+	.st4{font-size:20px;}
+</style>
+<font horiz-adv-x="1000">
+<!-- WH Hoxton is a licensed version of FS Hackney. Copyright (c) 2014 by Fontsmith Ltd for William Hill PLC. All rights reserved. This font may not be altered in any way without prior permission of Fontsmith Ltd. -->
+<!-- Copyright: Copyright 2017 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="WHHoxton-Bold" units-per-em="1000" underline-position="-55" underline-thickness="90"/>
+<missing-glyph horiz-adv-x="500" d="M12,672l476,0l0,-672l-476,0M412,624l-324,0l162,-244M222,336l-162,244l0,-488M440,580l-162,-244l162,-244M412,48l-162,244l-162,-244z"/>
+<glyph unicode="3" horiz-adv-x="532" d="M486,179C486,112 464,63 419,33C374,3 301,-12 201,-12C137,-12 79,-3 27,14l0,101C80,97 135,88 190,88C249,88 291,96 317,112C343,127 356,153 356,188C356,224 342,250 315,267C288,283 244,291 184,291l-47,0l0,91l45,0C240,382 282,390 308,406C334,421 347,448 347,486C347,521 336,546 315,562C293,577 256,585 204,585C144,585 85,575 27,556l0,101C54,666 85,672 118,677C151,682 183,684 215,684C303,684 369,669 412,640C455,611 476,563 476,497C476,414 437,361 358,337C443,313 486,260 486,179z"/>
+</font>
+
+	<title>avatar3</title>
+<desc>Created with Sketch.</desc>
+<g id="Desktop-Watcher-Resulted" transform="translate(-180.000000, -275.000000)">
+	<g id="player" transform="translate(171.000000, 270.000000)">
+		<g id="avatar3" transform="translate(9.000000, 5.000000)">
+			<g id="Rectangle-5">
+				<g>
+					<path id="path-1" class="st0" d="M20,0L20,0c11.0457,0,20,8.9543,20,20l0,0c0,11.0457-8.9543,20-20,20l0,0
+						C8.9543,40,0,31.0457,0,20l0,0C0,8.9543,8.9543,0,20,0z"/>
+				</g>
+				<path class="st1" d="M20,0.5L20,0.5c10.76955,0,19.5,8.73045,19.5,19.5l0,0c0,10.76955-8.73045,19.5-19.5,19.5l0,0
+					C9.23045,39.5,0.5,30.76955,0.5,20l0,0C0.5,9.23045,9.23045,0.5,20,0.5z"/>
+			</g>
+			<text transform="matrix(1 0 0 1 15.17999 27)" class="st2 st3 st4">3</text>
+		</g>
+	</g>
+</g>
+</svg>
