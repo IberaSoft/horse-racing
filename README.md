@@ -22,7 +22,7 @@ This is an addictive multiplayer game developed for WH's Hackathon 2017 where th
 
 ### Play now!
 
-> Go to [this](https://racing.vlrz.es) url and follow the instructions...
+> Go to [this](https://racing.manvalls.com/) url and follow the instructions...
 
 ***Race administrator***
 ```
