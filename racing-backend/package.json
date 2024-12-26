@@ -1,12 +1,13 @@
 {
   "name": "racing-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Racing Backend Application",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "reql": "node reql.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build process defined for backend.\""
   },
   "repository": {
     "type": "git",

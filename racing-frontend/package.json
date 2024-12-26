@@ -1,41 +1,45 @@
 {
   "name": "racing-frontend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Racing Frontend Application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "jta serve",
-    "build": "jta"
+    "build": "jta",
+    "build-css": "sass src/styles:dist/styles"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:IberaSoft/horce-racing.git"
   },
-  "author": "",
+  "author": "Iberasoft",
   "license": "ISC",
   "devDependencies": {
-    "babel-preset-flow": "^6.23.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-3": "^6.24.1",
-    "jta": "^2.3.0"
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/preset-react": "^7.20.0",
+    "jta": "^2.3.0",
+    "sass": "^1.64.2"
   },
   "dependencies": {
     "bulma": "^0.6.1",
-    "bulmaswatch": "^0.5.2",
-    "history": "^4.7.2",
-    "imports-loader": "^0.7.1",
-    "jquery": "^3.2.1",
-    "lodash": "^4.17.4",
-    "qrcode.react": "^0.7.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "bulmaswatch": "^0.8.1",
+    "history": "^5.3.0",
+    "imports-loader": "^2.0.0",
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21",
+    "qrcode.react": "^4.0.2",
+   "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0",
     "react-rangeslider": "^2.2.0",
-    "react-redux": "^5.0.6",
-    "react-router": "^4.2.0",
-    "react-router-redux": "^5.0.0-alpha.9",
-    "redux": "^3.7.2",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.14.1",
+    "react-router-redux": "use react-router-dom or @reduxjs/toolkit",
+    "redux": "^4.2.1",
     "snapsvg": "^0.5.1",
-    "socket.io-client": "^2.0.4"
+    "socket.io-client": "^4.7.3",
+    "uglify-js": "^3.13.0"
   }
 }

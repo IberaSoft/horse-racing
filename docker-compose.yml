@@ -1,0 +1,47 @@
+version: '3.8'  # Use the latest version to leverage new Docker Compose features
+
+services:
+  rethinkdb:
+    image: rethinkdb:2.4
+    container_name: rethinkdb
+    ports:
+      - '28015:28015'
+      - '8081:8080'  # RethinkDB admin console
+    volumes:
+      - rethinkdb_data:/data
+    networks:
+      - racing-network
+
+  backend:
+    build:
+      context: ./racing-backend
+    container_name: racing-backend
+    ports:
+      - '8000:80'  # Adjust this if your backend service should be available on a different port
+    environment:
+      - RACING_DB=racing
+      - RACING_HOST=rethinkdb
+      - RACING_PORT=28015
+    depends_on:
+      - rethinkdb
+    networks:
+      - racing-network
+
+  frontend:
+    build:
+      context: ./racing-frontend
+    container_name: racing-frontend
+    ports:
+      - '8080:80'  # Adjust this port if needed
+    depends_on:
+      - backend
+    networks:
+      - racing-network
+
+volumes:
+  rethinkdb_data:
+
+networks:
+  racing-network:
+    driver: bridge
+    
